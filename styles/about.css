@@ -1,0 +1,12 @@
+
+.content {
+  width: 100%
+}
+
+.content-box {
+  background-color: var(--primary-color);
+  border-radius: var(--base-size);
+  margin: var(--base-size);
+  padding: calc(var(--base-size)*2);
+  width: calc(100% - 48px);
+}

@@ -1,0 +1,6 @@
+
+@font-face {
+  font-family: freemono;
+  src: url(../fonts/gnu-free/freemono-webfont.woff) format("woff"),
+       url(../fonts/gnu-free/freemono-webfont.woff2) format("woff2");
+};

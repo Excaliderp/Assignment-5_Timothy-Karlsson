@@ -1,0 +1,43 @@
+
+fieldset {
+  background-color: var(--primary-color);
+  border: none;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  width: 400px;
+}
+
+button {
+  background-color: var(--primary-color);
+  border: 1px solid var(--detail-color);
+  color: var(--detail-color);
+  cursor: pointer;
+  width: 50px;
+}
+
+input {
+  max-width: 50%;
+}
+
+textarea {
+  max-width: 80%;
+}
+
+input,
+textarea {
+  background-color: var(--light-color);
+  color: var(--detail-color);
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.social-icon {
+  height: 50px;
+  margin-top: var(--base-size);
+  width: 50px;
+}

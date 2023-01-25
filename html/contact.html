@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Contact - Timothy Karlsson portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/css.css">
+  <link rel="stylesheet" href="../styles/fonts.css">
+  <link rel="stylesheet" href="../styles/contact.css">
+  <script src="../js/js.js" defer></script>
+  <script src="../js/jquery-3.6.3.min.js"></script>
+</head>
+
+<body>
+
+  <section class="navigation">
+
+    <div class="nav-button">Home <a href="../index.html"><span class="link"></span>
+      </a>
+    </div>
+
+    <div class="nav-button">Projects
+      <div class="sub-menu">
+        <a href="../html/projects.html">
+          <p>All projects</p>
+        </a>
+        <a href="../html/project-pages/ufdk.html">
+          <p>Webpage</p>
+        </a>
+        <a href="../html/project-pages/hangmanprompt.html">
+          <p>Hangman Prompt</p>
+        </a>
+        <a href="../html/project-pages/hangmangame.html">
+          <p>Hangman Game</p>
+        </a>
+        <a href="../html/project-pages/pokemonapi.html">
+          <p>Pokemon Randomizer</p>
+        </a>
+      </div>
+    </div>
+
+    <div class="nav-button">About me<a href="../html/about.html"><span class="link"></span>
+      </a>
+    </div>
+
+    <div class="nav-button current-page">Contact <a href="../html/contact.html"><span class="link"></span>
+      </a>
+    </div>
+  </section>
+
+  <header>
+    <h1>Contact</h1>
+  </header>
+
+  <main>
+    <form method="post" action="mailto: timothy.karlsson@edu.cmeducations.se" enctype="text/plain">
+      <fieldset>
+        <legend>
+          <h3>E-mail me:</h3>
+        </legend>
+        <label for="name">First and last name*</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="subject">Subject*</label><br>
+        <input type="text" id="subject" name="subject" required><br>
+        <label for="meddelande">Message*</label><br>
+        <textarea name="meddelande" style="width:300px; height:200px;" required></textarea>
+        <p>*=Required fields</p>
+        <button>Send</button>
+      </fieldset>
+    </form>
+
+    <div class="social-media">
+      <a href="https://github.com/Excaliderp" target="_blank"><img class="social-icon"
+          src="../images/github-mark-white.png"></a>
+      <a href="https://www.linkedin.com/in/timothy-karlsson-23361221a/" target="_blank"><img class="social-icon"
+          src="../images/linkedin-logo.png"></a>
+    </div>
+  </main>
+
+  <footer>
+    <h3>&copy; Timothy Karlsson</h3>
+  </footer>
+</body>
+
+</html>

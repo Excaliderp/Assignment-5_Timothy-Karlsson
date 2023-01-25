@@ -1,0 +1,39 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: var(--base-size);
+  width: 100%
+}
+
+.content-box {
+  background-color: var(--primary-color);
+  border-radius: var(--base-size);
+  margin: var(--base-size);
+  padding: calc(var(--base-size)*2);
+  position: relative;
+  width: 80%;
+  z-index: 0;
+}
+
+.info {
+  display: none;
+}
+
+.link-icons {
+  position: absolute;
+  right: var(--base-size);
+  top: var(--base-size);
+  z-index: 2;
+}
+
+.link-icons img {
+  height: calc(var(--base-size) * 2);
+  width: calc(var(--base-size) * 2);
+}
+
+.show-more {
+  color: var(--highlight-color);
+  cursor: pointer;
+  width: fit-content;
+}

@@ -1,0 +1,26 @@
+
+main {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.content-box {
+  display: flex;
+  flex-direction: column;
+  padding: var(--base-size);
+  width: 30%;
+}
+
+.html-logo {
+  align-self: center;
+  height: calc(var(--base-size) * 6);
+  width: fit-content;
+}
+
+.pic-of-me {
+  height: fit-content;
+  padding: var(--base-size);
+  width: 20%;
+  max-width: 300px;
+}
