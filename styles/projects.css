@@ -1,11 +1,17 @@
+
 h3 {
   font-size: var(--base-size);
 }
 
 .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: var(--base-size);
   width: 100%
 }
@@ -39,15 +45,23 @@ h3 {
 .show-more {
   color: var(--highlight-color);
   cursor: pointer;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
 }
 
 @media screen and (max-width: 768px) {
 
   .content {
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
   }
 
   .content-box {

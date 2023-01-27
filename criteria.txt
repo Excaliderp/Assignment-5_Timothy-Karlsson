@@ -5,32 +5,32 @@ HTML
 //- have an index.html at root level for publishing on github pages
 //- have multiple pages
 //- have a Header, footer and navigational menu on all main pages (where possible)
-- Specific project pages (eg assignment 2) may have to open in a new window 
+//- Specific project pages (eg assignment 2) may have to open in a new window 
 you don't want the user to be able to navigate away from your site
-- pay attention to SEO requirements regarding page titles 
+//- pay attention to SEO requirements regarding page titles 
 //- include a mail to contact form similar to Assignment 1 with the user's name and a message added to the email body.
 //- On submit the user's email client should open
 
 CSS
 //- have external CSS
-- have a general style sheet or sheets for common elements like header, footer and navigation
+//- have a general style sheet or sheets for common elements like header, footer and navigation
 //- have a typography style sheet
-- have separate stylesheets for each page
-- be responsive (one breakpoint at 991px at the minimum)
+//- have separate stylesheets for each page
+//- be responsive (one breakpoint at 991px at the minimum)
 //- include at least one locally installed font
 
 JS
-- include a jQuery plugin (such as a carousel)
+//- include a jQuery plugin (such as a carousel)
 //- include a JS/jQuery multi level menu - the projects page is perfect for this. 
-At least 2 levels are required and it must be done with JS events
+//At least 2 levels are required and it must be done with JS events
 
 To achieve a Välgodkänt grade your assignment must include:
-- good project organisation - separate directories for all relevant files (html, css, fonts, images, js) - index.html is excluded
-- CSS variables 
-- CSS prefixing where required
+//- good project organisation - separate directories for all relevant files (html, css, fonts, images, js) - index.html is excluded
+//- CSS variables 
+//- CSS prefixing where required
 - include jQuery effects like fade and slide - an example would be a read more button that displays content on click
-- semantic element naming
-- correct & consistent code style
+//- semantic element naming
+//- correct & consistent code style
 
 
 pages: 

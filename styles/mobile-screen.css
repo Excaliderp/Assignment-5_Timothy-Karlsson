@@ -2,6 +2,8 @@
 .burger-submenu {
   background-color: var(--light-color);
   display: none;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
   padding: var(--base-size);
   position: absolute;
@@ -11,6 +13,8 @@
 }
 
 .hamburger-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 100%;
   position: absolute;

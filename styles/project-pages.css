@@ -1,7 +1,13 @@
+
 .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: var(--base-size);
   width: 100%
 }
@@ -35,5 +41,7 @@
 .show-more {
   color: var(--highlight-color);
   cursor: pointer;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
 }

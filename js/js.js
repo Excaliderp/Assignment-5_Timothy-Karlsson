@@ -38,7 +38,7 @@ $(function () {
     click: function () {
       $(this).siblings(".info").slideToggle(200);
 
-      if($(this).text() === "Show more"){
+      if ($(this).text() === "Show more") {
         $(this).text("Show less");
       } else {
         $(this).text("Show more");
@@ -46,9 +46,21 @@ $(function () {
     }
   });
 
-  $(".hamburger-button").on("click", function (e){
+  $(".hamburger-button").on("click", function (e) {
     $(".burger-submenu").slideToggle(200);
     e.stopPropagation();
-  })
+  });
+
+  $(document).ready(function($){
+    $("#slider").QCslider({
+      // options here
+    });
+  });
+
+  $(document).ready(function($){
+    $("#slider").QCslider({
+      duration: 5000
+    });
+  });
 
 });

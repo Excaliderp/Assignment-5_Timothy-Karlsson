@@ -1,23 +1,26 @@
 
 .content {
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   justify-items: center;
   width: 100%
 }
 
 .content-box {
-  align-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   background-color: var(--primary-color);
   border-radius: var(--base-size);
   margin: var(--base-size);
   padding: calc(var(--base-size)*2);
   width: calc(100% - 48px);
-}
-
-@media screen and (max-width: 768px) {
-
-  
-
 }
