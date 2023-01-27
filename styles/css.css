@@ -34,6 +34,8 @@ body {
 
 header,
 footer {
+  align-items: center;
+  justify-content: center;
   background-color: var(--primary-color);
   padding: var(--base-size);
   text-align: center;
@@ -97,4 +99,5 @@ main {
 .sub-menu p {
   cursor: pointer;
 }
+
 

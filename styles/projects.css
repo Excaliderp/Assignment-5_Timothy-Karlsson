@@ -41,3 +41,17 @@ h3 {
   cursor: pointer;
   width: fit-content;
 }
+
+@media screen and (max-width: 768px) {
+
+  .content {
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .content-box {
+    margin-top: 0;
+    width: calc(100% - 32px);
+  }
+}

@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="../styles/css.css">
   <link rel="stylesheet" href="../styles/fonts.css">
   <link rel="stylesheet" href="../styles/projects.css">
+  <link rel="stylesheet" href="../styles/mobile-screen.css">
   <script src="../js/js.js" defer></script>
   <script src="../js/jquery-3.6.3.min.js"></script>
 </head>
@@ -48,6 +49,26 @@
     </div>
   </section>
 
+  <section class="hamburger-menu">
+    <img class="hamburger-button" src="../images/burgermenuicon.png" alt="burger menu button">
+    <div class="burger-submenu">
+      <div class="nav-button">Home <a href="../index.html"><span class="link"></span>
+        </a>
+      </div>
+
+      <div class="nav-button current-page">Projects<a href="../html/projects.html"><span class="link"></span>
+        </a></div>
+
+      <div class="nav-button">About me<a href="../html/about.html"><span class="link"></span>
+        </a>
+      </div>
+
+      <div class="nav-button">Contact <a href="../html/contact.html"><span class="link"></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
   <header>
     <h1>My projects</h1>
   </header>
@@ -59,14 +80,15 @@
         <h3>Simple webpage made using HTML and CSS.<br>(November, 2022)</h3>
         <p class="show-more">Show more</p>
         <p class="info">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          The first assignment during our frontend course. We were tasked with building a basic webpage using html and
+          css.<br>
+          Given certain criterias to show that we understood the lectures, looks and design not being one of them, so it
+          may look a
+          bit funky. The main goal was the code, not the design.
         </p>
         <div class="link-icons">
-          <a href="https://github.com/Excaliderp/UFDK.git" target="_blank"><img src="../images/github-mark-white.png"></a>
+          <a href="https://github.com/Excaliderp/UFDK.git" target="_blank"><img
+              src="../images/github-mark-white.png"></a>
           <a href="https://excaliderp.github.io/UFDK/" target="_blank"><img src="../images/play-button.png"></a>
         </div>
       </div>
@@ -76,11 +98,12 @@
         <h3>Simple word game made in vanilla Javascript, using only prompt.<br>(December 2022)</h3>
         <p class="show-more">Show more</p>
         <p class="info">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          Second assignment during our frontend course. We were tasked wit building a word game using Vanilla
+          Javascript. <br>
+          Out lector was kinds enough not to have us connecting it to html and only use alerts and prompts, not
+          venturing into
+          the swamp called document get Element By Blablabla.<br>
+          I made a simple Hangman game, you're welcome to try it!
         </p>
         <div class="link-icons">
           <a href="https://github.com/Excaliderp/Hangman-JS_Timothy-Karlsson.git" target="_blank"><img
@@ -95,11 +118,17 @@
         <h3>A bit more advanced Hangman game. Made in jQuery, HTML and CSS.<br>(December, 2022)</h3>
         <p class="show-more">Show more</p>
         <p class="info">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          Third assignment during our frontend course. We were tasked with building a word game, this time connecting
+          the javascript
+          with the html.<br>
+          Luckily, this assignment was given to us as we we're going through jQuery. So instead of having an assignment
+          which would
+          have been a mysterious ticking pipe bomb, it was a lot of fun.<br>
+          Again i made the Hangman game, since I'm not very creative... Also a bit lazy. I did learn by my mistake
+          thinking it would
+          be easy, just tinkering with my already existing code and just adding it to html. It was not that easy, and I
+          ended up
+          rewriting all my code. Shame on me, but i learned a whole lot!
         </p>
         <div class="link-icons">
           <a href="https://github.com/Excaliderp/Assignment-3_Timothy-Karlsson.git" target="_blank"><img
@@ -114,11 +143,13 @@
         <h3>A simple Pokémon generator, playing with jQuery and API.<br>(January, 2022)</h3>
         <p class="show-more">Show more</p>
         <p class="info">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          Fourth assignment during out frontend course. We were tasked with making a webpage connected to an API of out
+          choice.<br>
+          Being the nerd that I am, i chose Pokémon API. First i did not want to, since out lector used it to teach us
+          API, but it
+          was so ridiculously well developed, I just had to play around with it. I made it both as a randomizer and also
+          asking
+          for user input to find a Pkémon based on their Pokédex enrty number.
         </p>
         <div class="link-icons">
           <a href="https://github.com/Excaliderp/Assignment-4_Timothy-Karlsson.git" target="_blank"><img

@@ -1,12 +1,23 @@
 
 .content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
   width: 100%
 }
 
 .content-box {
+  align-self: center;
   background-color: var(--primary-color);
   border-radius: var(--base-size);
   margin: var(--base-size);
   padding: calc(var(--base-size)*2);
   width: calc(100% - 48px);
+}
+
+@media screen and (max-width: 768px) {
+
+  
+
 }
