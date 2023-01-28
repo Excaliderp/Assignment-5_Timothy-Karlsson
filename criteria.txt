@@ -38,3 +38,38 @@ index - introduction
 projects - my projects, obviously
 about me - some info about me personally
 contact - mail form and social networks
+
+
+
+
+slider projects:
+
+    <section class="slide">
+      <div class="slider-container">
+        <ul class="slider-wrapper" id="slider">
+          <li class="slide-current">
+            <img src="../images/ufdk.png">
+            <div class="capa">Webpage - UFDK</div>
+          </li>
+
+          <li>
+            <img src="../images/hangmanprompt.png">
+            <div class="capa">Hangman JS</div>
+          </li>
+
+          <li>
+            <img src="../images/hangmangame.png">
+            <div class="capa">Hangman Game</div>
+          </li>
+
+          <li>
+            <img src="../images/pokeapi.png">
+            <div class="capa">Pokémon Randomizer</div>
+          </li>
+        </ul>
+        <div class="drt-control control-left" id="lft-control"></div>
+        <div class="drt-control control-right" id="rht-control"></div>
+        <ul class="slider-controls" id="slider-controls"></ul>
+        <div class="tempo-bar" id="barra"></div>
+      </div>
+    </section>

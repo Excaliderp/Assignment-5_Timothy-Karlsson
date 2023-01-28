@@ -7,6 +7,10 @@
   --base-size: 16px;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 html {
   color: var(--detail-color);
   font-family: "freemono";
@@ -98,11 +102,7 @@ main {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-}
-
-.nav-button img {
-  background-color: var(--primary-color);
-  display: none;
+  z-index: 4;
 }
 
 .sub-menu {

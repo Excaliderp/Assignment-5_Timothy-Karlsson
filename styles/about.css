@@ -11,7 +11,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   justify-items: center;
-  width: 100%
+  width: 100%;
 }
 
 .content-box {
@@ -20,7 +20,7 @@
       align-self: center;
   background-color: var(--primary-color);
   border-radius: var(--base-size);
-  margin: var(--base-size);
+  margin: calc(var(--base-size)*2);
   padding: calc(var(--base-size)*2);
-  width: calc(100% - 48px);
+  width: calc(100% - 64px);
 }

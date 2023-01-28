@@ -8,9 +8,9 @@
 **/
 :root {
   --opacity-slide: 0.5;
-  --height-slider: 500px;
+  --height-slider: 400px;
   --color-slider: var(--highlight-color);
-  --height-responsive: 300px;
+  --height-responsive: 500px;
 }
 
 body {
@@ -20,8 +20,9 @@ body {
 
 section.slide {
   position: relative;
+  float: left;
   display: block;
-  width: 100%;
+  width: 50%;
   height: var(--height-slider);
 }
 @media only screen and (max-width: 766px) {
